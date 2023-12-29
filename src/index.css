@@ -1,0 +1,54 @@
+.shadowCustomize {
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ margin-bottom: 40px;
+ padding: 15px;
+ border: none;
+ transition: .3s ease;
+}
+
+.shadowCustomize:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+ transform: scale(1.08);
+}
+
+body {
+  background-color: #2f3640;
+}
+
+.color_header {
+  color: #2e86de;
+}
+
+.text_header {
+  font-size: 2.5rem;
+}
+
+.p_header {
+  font-size: 18px;
+}
+
+.aa2 {
+  display: inline-block;
+  max-width: 280px;
+}
+
+.colorAll {
+  color:  #2e86de;
+
+}
+
+.card {
+  max-width: 13rem!important;
+}
+
+@media only screen and (max-width: 600px) {
+      footer {
+        margin-top: 100px;
+        padding-top: 200px;
+      }
+}
+
+.m22 {
+  margin-right: 10px!important;
+}
